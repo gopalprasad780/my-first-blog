@@ -7,22 +7,14 @@
      <div>
        <h1> <a href=""> Django Girls Blog </a> </h1>
      </div>
+     {% for post in posts %}
+        <div >
+          <p> published: {{post.published_date}}</p>
+          <h1> <a href="#">{{post.title}}</a></h1>
+          <p> {{post.text|linebreaksbr}}</p>
+        </div>
 
-     <div>
-       <p> Published: 2017.04.30, 12:54</p>
-       <h2> <a href=""> My first post <a> </h2>
-        <p>Jasmine lion than football. Kids football television skirt and poisonous gas.
-          Donec id elit non mi porta gravida at eget metus Sed congue. Fusce dapibus,
-          tellus ac cursus commodo, tortor mauris condimentum nibh,
-           ut fermentum justo sit amet risus. </p>
-      </div>
+     {% endfor %}
 
-      <div>
-        <p> Published: 2017.05.01, 13:30 </p>
-        <h2> <a href="#">My second blog </a></h2>
-        <p> Jasmine lion than football. Kids football television skirt and poisonous gas.
-           Donec id elit non mi porta gravida at eget metus Sed congue.
-           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f</p>
-       </div>
 </body>
 </html>
