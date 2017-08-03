@@ -25,7 +25,7 @@ SECRET_KEY = 'pivv=!gvc8fj8s%e3io7co1r@8&zr0o%2vh8t8*6+3q6e)ice%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com',"gopalblogpost.herokuapp.com"]
 
 
 # Application definition
