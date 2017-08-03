@@ -5,6 +5,6 @@ Only registered user can comment on the article.
 Admin can approved the comment as well as article.
 
 Please have a look in the source code
-You can see live site at http://gopalprasad780.pythonanywhere.com/
+You can see live site at http://gopalblogpost1.herokuapp.com/
 
 Please let me know your feedback.
